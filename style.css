@@ -95,7 +95,7 @@ a {
 
 
 /* MAIN  */
-h1 {
+h2 {
   display: none;
 }
 .slider__wrapper {
@@ -112,11 +112,6 @@ h1 {
   cursor: pointer;
 }
 
-@media (max-width: 900px) {
-  .slider__wrapper {
-    margin: 100px 20px 0px 20px;
-  }
-}
 
 .images__container {
   display: flex;
@@ -261,3 +256,41 @@ span {
 .footer__link:hover {
   color: rgb(255, 91, 91);
 }
+
+
+@media (max-width: 900px) {
+  .slider__wrapper {
+    margin: 100px 20px 0px 20px;
+  }
+
+  .footer {
+    padding: 0px 20px;
+  }
+
+  .header {
+    padding: 0px 20px;
+  }
+}
+/* 
+
+@media (max-width: 440px) {
+
+  .header__wrapper {
+    padding-bottom: 20px;
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 140px;
+    height: 50px;
+  }
+
+  .header__title {
+    font-size: 2.5rem;
+  }
+
+  .slider__controls {
+    padding-top: 20px;
+  }
+} */
