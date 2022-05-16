@@ -118,7 +118,6 @@ h2 {
   max-width: 80rem;
   overflow: hidden;
   border-radius: 0.9%;
- 
 }
 
 input {
@@ -271,9 +270,14 @@ span {
     padding: 0px 20px;
   }
 }
-/* 
+
 
 @media (max-width: 440px) {
+
+  .slider__wrapper {
+    margin: 50px 20px 0px 20px;
+  }
+
 
   .header__wrapper {
     padding-bottom: 20px;
@@ -293,4 +297,4 @@ span {
   .slider__controls {
     padding-top: 20px;
   }
-} */
+}
