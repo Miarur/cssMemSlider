@@ -276,6 +276,7 @@ span {
 
   .slider__wrapper {
     margin: 50px 20px 0px 20px;
+    padding-bottom: 50px;
   }
 
 
@@ -297,4 +298,38 @@ span {
   .slider__controls {
     padding-top: 20px;
   }
+}
+
+
+@media (max-width: 320px) {
+
+  .slider__wrapper {
+    margin: 50px 20px 0px 20px;
+    padding-bottom: 50px;
+  }
+
+
+  .header__wrapper {
+    padding-bottom: 20px;
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 140px;
+    height: 50px;
+  }
+
+  .header__title {
+    font-size: 2.5rem;
+  }
+
+  .slider__controls {
+    padding-top: 20px;
+  }
+
+  span {
+    font-size: 1.5rem;
+  }
+
 }
