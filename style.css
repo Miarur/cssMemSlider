@@ -269,6 +269,10 @@ span {
   .header {
     padding: 0px 20px;
   }
+
+  .footer {
+    margin-top: 100px;
+  }
 }
 
 
@@ -276,7 +280,6 @@ span {
 
   .slider__wrapper {
     margin: 50px 20px 0px 20px;
-    padding-bottom: 50px;
   }
 
 
@@ -298,6 +301,10 @@ span {
   .slider__controls {
     padding-top: 20px;
   }
+
+  .footer {
+    margin-top: 100px;
+  }
 }
 
 
@@ -305,7 +312,6 @@ span {
 
   .slider__wrapper {
     margin: 50px 20px 0px 20px;
-    padding-bottom: 50px;
   }
 
 
@@ -330,6 +336,10 @@ span {
 
   span {
     font-size: 1.5rem;
+  }
+
+  .footer {
+    margin-top: 100px;
   }
 
 }
