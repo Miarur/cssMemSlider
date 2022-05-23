@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>CSS Slider</title>
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper header__wrapper">
+
+      <div class="header__logo">
+        <a href="#" class="header__link"><img src="./assets/witcher-logo.png" alt="logo" class="logo"></a>
+      </div>
+      <h1 class="header__title">CSS Slider</h1>
+      <a class="contacts" href="#contacts">Contacts</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="slider__wrapper">
+      <h2></h2>
+
+      <input type="radio" id="img_1" name="control" checked>  
+      <input type="radio" id="img_2" name="control">  
+      <input type="radio" id="img_3" name="control">  
+      <input type="radio" id="img_4" name="control">  
+
+      <div class="images__container">
+        <img class="image__item image__item_move" src="./assets/mem-oo1.jpg" alt="s-1" >
+        <img class="image__item" src="./assets/mem001.webp" alt="s-2" >
+        <img class="image__item" src="./assets/mem003.jpg" alt="s-3" >
+        <img class="image__item" src="./assets/mem-4.jpg" alt="s-4" >
+      </div>
+
+      <div class="slider__bottom">
+        <div class="text">
+          <div class="text__item"><span class="text-content">Акция — один товар по цене двух.</span></div>
+          <div class="text__item"><span class="text-content">Ваше здоровье, краснолюды! Пусть у вас бороды под ногами не путаются.</span></div>
+          <div class="text__item"><span class="text-content">— Зачем ты поджег дом? — А тебя е*ет?!</span></div>
+          <div class="text__item"><span class="text-content">Ты говоришь как прибожек, выглядишь как прибожек... и просто ты прибожек.</span></div>  
+        </div>
+
+        <div class="slider__controls">
+          <label for="img_1"><div class="label"></div></label>
+          <label for="img_2"><div class="label"></div></label>
+          <label for="img_3"><div class="label"></div></label>
+          <label for="img_4"><div class="label"></div></label>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="wrapper footer__wrapper">
+      <div class="footer__content">
+        <a href="https://github.com/Miarur" class="footer__link" id="contacts">Github</a>
+        <p class="footer__text">Andrei Smolka 2022</p>
+      </div>
+    </div>
+
+  </footer>
+</body>
+</html>
